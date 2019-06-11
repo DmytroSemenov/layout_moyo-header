@@ -4,28 +4,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,
-          user-scalable=no,
-          initial-scale=1.0,
-          maximum-scale=1.0,
-          minimum-scale=1.0">
+          initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>MOYO menu</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
   <header>
-    <img class="logo" src="./images/logo.png" alt="logo">
-    <nav class="menu">
-      <a class="menu-item is-active" href="">APPLE</a>
-      <a class="menu-item" href="">SAMSUNG</a>
-      <a class="menu-item" href="">СМАРТФОНЫ И ТЕЛЕФОНЫ</a>
-      <a class="menu-item" data-qa="hover" href="">НОУТБУКИ И КОМПЬЮТЕРЫ</a>
-      <a class="menu-item" href="">ГАДЖЕТЫ</a>
-      <a class="menu-item" href="">ПЛАНШЕТЫ</a>
-      <a class="menu-item" href="">ФОТО</a>
-      <a class="menu-item" href="">ВИДЕО</a>
+    <div class="logo">
+      <a class="logo__link" href="http://localhost:8080/index.html">
+        <img src="./images/logo.png" alt="MOYO-logo">
+      </a>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a class="menu__item is-active" href="#">APPLE</a></li>
+        <li><a class="menu__item" href="#">SAMSUNG</a></li>
+        <li><a class="menu__item" href="#">СМАРТФОНЫ И ТЕЛЕФОНЫ</a></li>
+        <li><a class="menu__item" data-qa="hover" href="#">НОУТБУКИ И КОМПЬЮТЕРЫ</a></li>
+        <li><a class="menu__item" href="#">ГАДЖЕТЫ</a></li>
+        <li><a class="menu__item" href="#">ПЛАНШЕТЫ</a></li>
+        <li><a class="menu__item" href="#">ФОТО</a></li>
+        <li><a class="menu__item" href="#">ВИДЕО</a></li>
+      </ul>
     </nav>
   </header>
   <script type="text/javascript" src="./main.js"></script>
