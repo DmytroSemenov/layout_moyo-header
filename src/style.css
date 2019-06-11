@@ -13,21 +13,19 @@ header {
   padding: 0 50px;
   height: 60px;
 }
-
 header .logo {
   display: flex;
   align-items: center;
 }
-
 header .logo__link {
   margin-top: 4px;
   text-decoration: none;
 }
-
 header .menu {
+  display: flex;
   list-style-type: none;
+  margin-top: -4px;
 }
-
 header .menu__item {
   font-style: normal;
   font-weight: 500;
@@ -38,11 +36,9 @@ header .menu__item {
   text-decoration: none;
   margin-left: 20px;
 }
-
 header .menu__item:hover {
   color: #00acdc;
 }
-
 header .menu .is-active {
   color: #00acdc;
   border-bottom: 4px solid #00acdc;
